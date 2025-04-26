@@ -8,10 +8,11 @@
         Title="MainWindow" Height="310" Width="380">
     <Grid>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="2*" />
-            <ColumnDefinition Width="1*" />
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
         </Grid.ColumnDefinitions>
-        <WrapPanel Orientation="Horizontal">
+        <WrapPanel Orientation="Horizontal" Grid.Column="0" Grid.ColumnSpan="2">
             <Button Content="Navy" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="2px" FontSize="20" Foreground="Navy"/>
             <Button Content="Blue" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="2px" FontSize="20" Foreground="Blue"/>
             <Button Content="Aqua" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="2px" FontSize="20" Foreground="Aqua"/>
